@@ -1,0 +1,8 @@
+h1 {
+    text-align: center;
+}
+
+main div h2,
+main div p {
+    font-style: italic;
+}
