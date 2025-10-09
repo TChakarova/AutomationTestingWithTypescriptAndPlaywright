@@ -1,8 +1,72 @@
-h1 {
+/* ===== General Page Styles ===== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* ===== Header ===== */
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px 0;
     text-align: center;
 }
 
-main div h2,
-main div p {
-    font-style: italic;
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ===== Main Content ===== */
+main {
+    padding: 30px;
+}
+
+/* ===== Center About Page Content ===== */
+main div {
+    text-align: center;
+}
+
+main img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
 }
