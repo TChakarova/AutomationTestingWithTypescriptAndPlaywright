@@ -1,13 +1,17 @@
-/* ===== General Page Styles ===== */
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
     color: #333;
+    display: flex;
+    flex-direction: column;
 }
 
-/* ===== Header ===== */
 header {
     background-color: #004080;
     color: white;
@@ -16,14 +20,15 @@ header {
 }
 
 header h1 {
-    margin: 0;
+    margin: 0 0 10px 0;
     font-size: 28px;
+    font-family: Arial, sans-serif;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 10px 0 0 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     gap: 25px;
@@ -43,23 +48,11 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* ===== Footer ===== */
-footer {
-    background-color: #004080;
-    color: white;
-    text-align: center;
-    padding: 15px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-/* ===== Main Content ===== */
 main {
+    flex: 1;
     padding: 30px;
 }
 
-/* ===== Center About Page Content ===== */
 main div {
     text-align: center;
 }
@@ -69,4 +62,13 @@ main img {
     height: auto;
     border-radius: 8px;
     margin-top: 20px;
+}
+
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: auto;
+    width: 100%;
 }
