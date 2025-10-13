@@ -5,7 +5,7 @@ console.log(`Hello! I am ${name}, ${age} years old.`);
 let num1: number = 5;
 let num2: number = 10;
 const addition: number = num1 + num2;
-const subtraction: number = num2 - num1;    
+const subtraction: number = num2 - num1;
 console.log(`Addition: ${addition}, Subtraction: ${subtraction}`);
 
 let num3: number = 15;
