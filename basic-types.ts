@@ -32,3 +32,10 @@ let isGreaterOrEqual: boolean = numOne >= numTwo;
 //logical operators
 let areEqualTo: boolean = numOne ===10 &&  numTwo===6;
 console.log(areEqualTo); // true
+
+//Union types
+let id: string | number;
+id = 20;
+id = "10";
+
+let result: number | string|null;
